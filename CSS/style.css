@@ -1,0 +1,21 @@
+/* this is element selector in csss */
+p{
+    color: chocolate;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkgray;
+
+}
+/* now we have to use class selector  */
+.newclass{
+    color: darkgoldenrod;
+    background-color: aquamarine;
+    font-size: xx-large;
+}
+ 
+/* now we have to use id selector */
+#myclass{
+    color: darkslateblue;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
