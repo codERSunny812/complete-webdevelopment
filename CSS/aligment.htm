@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aligment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        
+
+        }
+        body{
+            font-family: 'Raleway', sans-serif;
+            background-color: rgb(140, 167, 255);
+        }
+        .container{
+            
+        
+            color: rgb(0, 0, 0);
+            width: 900px;
+            height:890px;
+            border: 3px solid ghostwhite;
+            margin: auto;
+
+        }
+        .item{
+            border-radius: 12px;
+            border: 12px solid rgb(211, 107, 107);
+            margin:11px 11px;
+            padding: 12px 13px;
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+            clear: both;
+            padding:0;
+        }
+        #computer{
+            float:right;
+            width: 48%;
+            clear: both; /* it says float left and right doesn't overlap each this*/
+        }
+        #game{
+            float: left;
+            clear: both;
+            width: 50%;
+            
+        }
+        #games{
+            float: right;
+            clear: both;
+            width: 50%;
+        }
+        p,h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3> fruits</h3>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. A esse architecto inventore eius rem, enim perspiciatis modi non veniam doloribus praesentium!</p>
+
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab pariatur sit ratione, molestiae vitae officiis, delectus ipsum numquam in magnam!</p>
+        </div>
+        <div id="game" class="item">
+            <h3>game</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab pariatur sit ratione, molestiae vitae officiis, delectus ipsum numquam in magnam!</p>
+        </div>
+        <div id="games" class="item">
+            <h3>games</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab pariatur sit ratione, molestiae vitae officiis, delectus ipsum numquam in magnam!</p>
+        </div>
+    </div>
+</body>
+</html>
