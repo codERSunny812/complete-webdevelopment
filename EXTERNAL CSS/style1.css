@@ -1,0 +1,7 @@
+.container{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    display: inline-block;
+}

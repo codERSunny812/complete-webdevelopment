@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 12%;
+    display: block;
+     margin: auto;
+    }
+    h3{
+        padding-top: 23px;
+        width: 23%;
+        margin: auto;
+    }
+    .box{
+        border: 3px solid palegreen;
+        background-color: darkseagreen;
+        display: inline-block; 
+        margin: 10px;
+        padding: 12px;
+        width: 38%;
+        box-sizing: border-box;
+    }
+    .container{
+    width: 1200px;
+    margin: auto ;    
+    }
