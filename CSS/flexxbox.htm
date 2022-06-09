@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box tutorials</title>
+    <style>
+        .container{
+            height: 544px;
+            width: 100%;
+            border: 3px solid black;
+            /* it will felx the display */
+            display: flex;
+            /*  now let's know about flex box properties */
+            /* flex directio is by default row */
+             /* now lets comment out this ----> flex-direction: column; 
+            
+            
+            
+            
+               
+             
+             
+             
+             
+             this will simply adjust our flex box in a column */
+            
+
+             /* using reverse property will reverse our flex item according to the condition choose  */
+
+
+
+
+             /* to make our flex box responsive we use the follwing pro[erty  */
+
+             flex-wrap: wrap;
+
+             /* justify content will justify the content in vertical direction   */
+
+             justify-content:center;
+             justify-content
+             :space-between
+        }
+        .item{
+            width: 200px;
+            height: 400px;
+            background-color: coral;
+            border: 2px solid blueviolet;
+            margin: 5px;
+        }
+        #item1{
+            /* here we will know about the flex items properties 
+             */
+             order: 23;
+             /* higher the order later it will shown in container  */
+
+             flex-grow: 4;
+
+             /* our selected flex box width increases as we increase the size of pur container  */
+        }
+
+        #item2{
+            flex-shrink: 3;
+
+            /* just like flexx grow the selected flex container will shrink when the size of our container increases */
+
+              
+
+
+            /* when flex direction is set to row then width is taken by flex basics similarly if flex deirectin is set to column then also height is comtrol by flex basics 
+            
+            
+            */
+
+
+
+
+
+            flex-basis: 23px;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is  flex box tutorial </h1>
+    <div class="container">
+        <div class="item" id="item1"> first ox </div>
+        <div class="item" id="item2"> second box</div>
+        <div class="item" id="item3"> third box</div>
+        <div class="item" id="item4"> fourth box </div>
+       </div>
+</body>
+</html>
