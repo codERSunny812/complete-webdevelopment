@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+    <style>
+        .container{
+           background-color: whitesmoke; 
+           display: flex;
+        }
+        .item{
+background-color: tan;
+/* border: 2px solid darkolivegreen; */
+padding: 23px 12px;
+margin: 23px 12px ;
+width: 122px;
+height: 122px;
+  /* this is the syntax of the box shadow ------> box-shadow: offset -x offset -y blur radius color ; */
+box-shadow: 5px 8px saddlebrown;
+/* and if we use negative number in place of these postive number then box shadow is on the left corner i.e - just opppsite to the the one which is used here  */
+
+
+/* similary if you want to give shadow to the text then use text shadow and do the same which you have done previously  */
+
+        }
+            </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item-1">item 1 </div>
+        <div class="item" id="item-2"> item 2 </div>
+        <div class="item" id="item-3">item 3</div>
+    </div>
+</body>
+</html>
