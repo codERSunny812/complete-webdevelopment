@@ -1,0 +1,89 @@
+<!-- table and its attribute  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and its attributes </title>
+
+</head>
+<style>
+    table{
+        border: 2px solid black;
+        margin-left: 320px;
+        border-collapse: collapse;
+        border-spacing: 18px;
+    }
+    th{
+        border: 2px solid black;
+        text-transform: uppercase;
+        padding: 12px;
+        
+    }
+    td{
+        border: 2px solid red;
+        padding-top:19px;
+    }
+
+
+
+    /* now to add background to the cells */
+    tr:nth-child(even){
+        background-color: yellowgreen;
+    }
+
+    th:nth-child(even){
+        background-color: lightcoral;
+    }
+
+
+    /* if you want to style any colum from the given cells then use */
+
+    
+
+
+</style>
+<body>
+    
+    <h2> html tables </h2>
+<table>
+<tr>
+    <th>name</th>
+    <th>age</th>
+    <th>Occupation</th>
+    <th>hobbies</th>
+</tr>
+<tr>
+    <td>sunny</td>
+    <td>19</td>
+    <td>student</td>
+    <td>coding and exploring new places </td>
+</tr>
+
+<tr>
+    <td>sameer</td>
+    <td>12</td>
+    <td>student</td>
+    <td>reading books</td>
+</tr>
+
+
+<tr>
+    <td>hitesh </td>
+    <td>21</td>
+    <td>student</td>
+    <td>bgmi</td>
+</tr>
+
+<tr>
+    <td>shivam</td>
+    <td>19</td>
+    <td>student</td>
+    <td>singing</td>
+</tr>
+</table>
+
+</body>
+</html>
