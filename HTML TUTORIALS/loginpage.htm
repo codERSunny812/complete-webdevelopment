@@ -1,0 +1,227 @@
+<!-- login page  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+      body {
+        background-color: grey;
+      }
+      .main {
+        border: 2px solid white;
+        background-color: white;
+        margin-top: 62px;
+        padding: 8px;
+        width: 310px;
+        height: 500px;
+        margin-left: 500px;
+        border-radius: 8px;
+      }
+      .name {
+        /* border: 2px solid firebrick; */
+        margin: 6px;
+        margin-top: 60px;
+        margin-left: 11px;
+      }
+      label,
+      span {
+        /* border: 3px solid darkmagenta; */
+        text-transform: capitalize;
+        font-size: 16px;
+        font-family: "Work Sans", sans-serif;
+        /* letter-spacing: 1px; */
+        font-weight: 700;
+      }
+
+      input{
+        outline: none;
+      }
+
+      #person_name {
+        /* border: 2px solid darkgoldenrod; */
+        padding: 3.5px;
+        margin-left: 18px;
+        border: none;
+        border-bottom: 2px solid black;
+        border-radius: 3px;
+      }
+
+      .email {
+        /* border: 3px solid darkorange; */
+        margin-top: 19px;
+        margin-left: 15px;
+      }
+
+      #person_email {
+        /* border: 3px solid forestgreen; */
+        padding: 3.5px;
+        margin-left: 18px;
+        border: none;
+        border-bottom: 2px solid black;
+        border-radius: 3px;
+      }
+      .password {
+        /* border: 2px solid forestgreen; */
+        margin-top: 22px;
+        margin-left: 2px;
+      }
+
+      #person_password {
+        /* border: 3px solid forestgreen; */
+        padding: 3.5px;
+        margin-left: 18px;
+        border: none;
+        border-bottom: 2px solid black;
+        border-radius: 3px;
+      }
+      .gender {
+        /* border: 3px solid darkred; */
+        margin-top: 29px;
+        margin-left: 2px;
+        padding-left: 7px;
+      }
+      #male,
+      #female {
+        margin-left: 8px;
+        padding-left: 3px;
+      }
+
+      #btn-submit {
+        /* border: 2px solid deeppink; */
+        background-color: cadetblue;
+        border: none;
+        border-radius: 3px;
+        margin-top: 45px;
+        margin-left: 99px;
+        padding: 8px;
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+        font-size: 15px;
+      }
+
+      #btn-submit:hover {
+        background-color: black;
+        color: white;
+      }
+
+      .text {
+        /* border: 2px solid hotpink; */
+        height: fit-content;
+        width: fit-content;
+      }
+
+      .text h1 {
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      .second-text h2 {
+        font-weight: 300;
+        font-size: 17px;
+        font-family: "Quicksand", sans-serif;
+        text-transform: capitalize;
+      }
+
+      .social-platform {
+        /* border: 3px solid darkcyan; */
+        margin-top: 29px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .fb-login {
+        border: 3px solid blue;
+        display: flex;
+        padding: 3px;
+      }
+      .fb-login img,
+      .gmail-login img {
+        /* border: 2px solid black; */
+        height: 43px;
+        margin-top: 2.9px;
+        padding: 3px;
+      }
+
+      .gmail-login {
+        border: 3px solid red;
+        display: flex;
+        width: 130px;
+        margin-left: 19px;
+      }
+
+      .fb-login h2 {
+        font-family: "Source Sans Pro", sans-serif;
+        /* border:3px solid firebrick; */
+        margin-left: 4px;
+        font-weight: 900;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: blue;
+      }
+      .gmail-login h2 {
+        margin-left: 9px;
+        font-family: "Source Sans Pro", sans-serif;
+        /* border:3px solid firebrick; */
+        font-weight: 900;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: orangered;
+    
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <form action="" method="">
+        <div class="text">
+          <h1>welcome to our <q>page</q></h1>
+        </div>
+        <div class="second-text">
+          <h2>join/signin using</h2>
+          <div class="social-platform">
+            <div class="fb-login">
+              <img src="/HTML TUTORIALS/facebook-svgrepo-com.svg" alt="" />
+              <h2>facebook</h2>
+            </div>
+            <div class="gmail-login">
+              <img src="/HTML TUTORIALS/icons8-google.svg" alt="" />
+              <h2>google</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="name">
+          <label for="person_name">name :</label>
+          <input type="text" name="pname" id="person_name" placeholder="enter your name " />
+        </div>
+        <div class="email">
+          <label for="person_email"> email :</label>
+          <input type="email" id="person_email" placeholder="xyz@gmail.com" />
+        </div>
+        <div class="password">
+          <label for="person_password">password :</label>
+          <input type="password" name="" id="person_password" placeholder="create a password" />
+        </div>
+        <div class="gender">
+          <span>gender</span>
+          <input type="radio" id="male" name="fav_language" value="male" />
+          <label for="male">male</label>
+          <input type="radio" id="female" name="fav_language" value="male" />
+          <label for="female">female</label>
+        </div>
+
+        <input type="button" name="" value="login" id="btn-submit" />
+      </form>
+    </div>
+  </body>
+</html>
