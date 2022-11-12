@@ -41,5 +41,16 @@ console.log(array2);
 console.log(array3);
 
 
+// for loops in array 
+
+let ar = [2, 4, , 7,12,13,14]; 
+
+for (let index = 0; index < ar.length; index++) {
+    const element = ar[index];
+    console.log(element);
+    
+}
+
+
 
 
