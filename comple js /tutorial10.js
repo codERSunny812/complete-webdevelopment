@@ -44,3 +44,25 @@ for(let ke in abc){
 }
 
 
+
+// spread operator in array 
+
+const array1=[1,2,3];
+const array2=[4,5,6];
+
+
+// now clone the both array into a single array 
+
+const newArray=[...array1,...array2];
+
+// you can also add some value to it 
+
+
+const newArrays=[...array1,...array2,34,12];
+
+// you can also spread a array into aray that's 
+
+const nArray=[..."abc"]
+
+
+
