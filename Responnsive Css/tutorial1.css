@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    border: 2px solid darkblue;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+padding:1rem;
+}
+
+li{
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+
+@media screen  ( min-width:150px)  {
+    ul{
+        width:100%;
+        font-size:1rem;
+    }
+
+     
+    .classes{
+        flex-direction: column;
+    }
+}
+
+.classes{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red ;
+    margin: 0.6rem;
+}
