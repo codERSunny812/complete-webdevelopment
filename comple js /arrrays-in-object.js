@@ -9,7 +9,7 @@ const arr = [
 {name:"varun", age:19,gender:"male",hobbies:"vlogging and coding "}
 
 
-]
+];
 
 console.log(arr);
 
