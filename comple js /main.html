@@ -28,7 +28,7 @@
     <title>My Website</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="nav container">
         <h1 class="logo">Website</h1>
         <ul class="nav-items">
@@ -41,13 +41,15 @@
         <h2 id="main-heading">
           Manage your tasks <span style="display: none">Hello</span>
         </h2>
-        <button class="btn btn-headline">Learn More</button>
+        <button class="btn btn-headline" onclick="console.log('you clicked me ')">Learn More</button>
       </div>
     </header>
 
     <section class="section-todo container">
       <h2>Your plan for today ?</h2>
       <!-- todo form  -->
+
+    
       <form class="form-todo">
         <input type="text" name="" id="" placeholder="Add Todo" />
         <input type="submit" value="Add Todo" class="btn" />
