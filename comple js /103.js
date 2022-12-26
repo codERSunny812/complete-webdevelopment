@@ -1,4 +1,4 @@
-// get and set attribute 
+// get and set attribute in javascript
 
 const link = document.querySelector("a");
 console.log(link); 
