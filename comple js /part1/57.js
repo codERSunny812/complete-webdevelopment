@@ -5,7 +5,7 @@
 //     return number*number;
 // }
 
-// const squareNumber = numbers.map((number, index)=>{
+// const squareNumber = numbers.map((number, index, array)=>{
 //     return index;
 // });
 // console.log(squareNumber);

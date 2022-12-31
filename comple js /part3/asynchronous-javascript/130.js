@@ -11,6 +11,10 @@
 
 // setTimeout
 
+// setTimeout(function,milisecond)
+
+// excute a function after waiting  for a specfied no of milisecond 
+
 console.log("script start");
 
 const id = setTimeout(() => {

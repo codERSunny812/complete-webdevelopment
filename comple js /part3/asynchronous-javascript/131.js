@@ -1,4 +1,6 @@
 // setInterval
+
+// same as setimeout but repeat the function continuoesly 
 // console.log("script start");
 // // setInterval(() => {
 // //   console.log(total);
