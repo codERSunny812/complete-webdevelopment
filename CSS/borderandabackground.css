@@ -1,0 +1,36 @@
+#firstclass{
+    background-color: cadetblue;
+    height: 100px;
+    width: 1450px;
+    border-radius: 30px;
+    border-width: 10px;
+    border-style:groove;
+    border-color: crimson;
+    /* border: 12px solid gold;  -----> you can write in one line  */
+}
+
+#secondclass{ 
+    background-color: rgb(0, 255, 13);
+    height: 100px;
+    width: 550px;
+    border-radius: 2px; 
+    border-top: 12px rebeccapurple;
+    border-left: 12px blue;
+    border-bottom: 12px green;
+    border-right:12px goldenrod ;
+    border-top-left-radius: 12px red;
+    border-top-right-radius: 12px grey;
+    
+
+    
+}
+/* in this we will know abhout how apply background image ans set thier size and other properties */
+#thirdclass{
+    height: 800px;
+    width: 450px;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQHGaPMNJyaLXg/profile-displayphoto-shrink_800_800/0/1651580727247?e=1659571200&v=beta&t=sdWeJCU-QRJo72h4qGnQumIQubYhBIEjycvq30sXrjU ");
+    border: 2px solid red;
+    background-repeat: no-repeat; /* the background image will not repeat */
+    background-position: center center; /* it will behave as x-y axis  you can change anyside and the adjacent x and y axis alos chaanged  */
+
+}

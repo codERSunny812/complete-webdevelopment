@@ -1,0 +1,19 @@
+.container{
+    background-color: whitesmoke; 
+    display: flex;
+ }
+ .item{
+background-color: tan;
+/* border: 2px solid darkolivegreen; */
+padding: 23px 12px;
+margin: 23px 12px ;
+width: 122px;
+height: 122px;
+/* this is the syntax of the box shadow ------> box-shadow: offset -x offset -y blur radius color ; */
+box-shadow: 5px 8px saddlebrown;
+/* and if we use negative number in place of these postive number then box shadow is on the left corner i.e - just opppsite to the the one which is used here  */
+
+
+/* similary if you want to give shadow to the text then use text shadow and do the same which you have done previously  */
+
+ }

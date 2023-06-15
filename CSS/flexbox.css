@@ -1,0 +1,73 @@
+.container{
+    height: 544px;
+    width: 100%;
+    border: 3px solid black;
+    /* it will felx the display */
+    display: flex;
+    /*  now let's know about flex box properties */
+    /* flex directio is by default row */
+     /* now lets comment out this ----> flex-direction: column; 
+    
+    
+    
+    
+       
+     
+     
+     
+     
+     this will simply adjust our flex box in a column */
+    
+
+     /* using reverse property will reverse our flex item according to the condition choose  */
+
+
+
+
+     /* to make our flex box responsive we use the follwing pro[erty  */
+
+     flex-wrap: wrap;
+
+     /* justify content will justify the content in vertical direction   */
+
+     justify-content:center;
+     justify-content
+     :space-between
+}
+.item{
+    width: 200px;
+    height: 400px;
+    background-color: coral;
+    border: 2px solid blueviolet;
+    margin: 5px;
+}
+#item1{
+    /* here we will know about the flex items properties 
+     */
+     order: 23;
+     /* higher the order later it will shown in container  */
+
+     flex-grow: 4;
+
+     /* our selected flex box width increases as we increase the size of pur container  */
+}
+
+#item2{
+    flex-shrink: 3;
+
+    /* just like flexx grow the selected flex container will shrink when the size of our container increases */
+
+      
+
+
+    /* when flex direction is set to row then width is taken by flex basics similarly if flex deirectin is set to column then also height is comtrol by flex basics 
+    
+    
+    */
+
+
+
+
+
+    flex-basis: 23px;
+}

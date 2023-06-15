@@ -1,0 +1,26 @@
+.box{
+    background-color: coral;
+    font-size: 2vw;
+    text-align: center;
+    display: none;
+}
+@media  (min-width:200px) and (max-width:400px){
+    #box1{
+        background-color: tomato;
+        font-family: cursive;
+        display: block;
+        margin-top: 123px;
+        font-size: 8em;
+        
+    }
+}
+@media (min-width:400px) and (max-width:600px){
+    #box5{
+        background-color:slateblue;
+        font-family: fantasy;
+        font-size: 8em;
+        display: block;
+        margin-top: 123px;
+
+    }
+} 
