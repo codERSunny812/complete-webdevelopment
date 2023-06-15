@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    }
+    .outerdiv {
+    width: 100vw;
+    height: 100vh;
+    background:#2a364f;
+    }
+
+    .innerdiv{
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+    }
+
+    .main-heading {
+    padding: 30px;
+    /* color: #fff; */
+    color: #fff;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+    text-transform: capitalize;
+    }
