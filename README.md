@@ -20,8 +20,12 @@ I have made particular folder for each lang like for learning HTML you have to o
 
 ## Course Content:
 ## 📚 [_Chapter 01 - HTML TUTORIALS_](./HTML%20TUTORIALS/)
-- 📖 It will cover the each concept of html . 
-- 
+- 📖 Content
+- - 📟📝 Display
+  - Forms
+  - Position
+  -  Table
+  
 - ## 📚 [_Chapter 02 - CSS TUTORIAL_](./CSS/)
 - 📖 It will cover the each concept of css , it also cover the advance css part too. 
 
