@@ -51,7 +51,22 @@ I have made particular folder for each lang like for learning HTML you have to o
 
 
 - ## 📚 [_Chapter 02 - JAVA SCRIPT TUTORIALS_](./JAVASCRIPT/)
-- 📖 It will cover each concept of javascript in dept , just have a look  
+-  📖 Topic Covered
+  - 📟📝Variable
+  - 📟📝Operator
+  - 📟📝Strings
+  - 📟📝Objects
+  - 📟📝Loops
+  - 📟📝Promise
+  - 📟📝Promise Api
+  - 📟📝Asyn Await 
+  - 📟📝 Error Handling
+  - 📟📝 Selector
+  - 📟📝 Visibility
+
+  - - ## 📚 [_Chapter 04 - JAVA SCRIPT TUTORIALS BY HARSHIT VASHIST_](./JAVASCRIPT/)
+    - 
+ 
 
 
 
