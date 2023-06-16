@@ -20,14 +20,35 @@ I have made particular folder for each lang like for learning HTML you have to o
 
 ## Course Content:
 ## 📚 [_Chapter 01 - HTML TUTORIALS_](./HTML%20TUTORIALS/)
-- 📖 Content
-- - 📟📝 Display
-  - Forms
-  - Position
-  -  Table
+- 📖 Topic Covered
+-  📟📝Heading & Paragraph Tag
+  - 📟📝Anchor Tag and attributes
+  - 📟📝List
+  - 📟📝Id & Classes
+  - 📟📝Display
+  - 📟📝Forms
+  - 📟📝Position
+  - 📟📝Table
+  - 📟📝 Image & Favicon
+    
   
 - ## 📚 [_Chapter 02 - CSS TUTORIAL_](./CSS/)
-- 📖 It will cover the each concept of css , it also cover the advance css part too. 
+- - 📖 Topic Covered
+-  📟📝Animation
+  - 📟📝Aligment
+  - 📟📝attribute_nthchild.css
+  - 📟📝Border & Background
+  - 📟📝Box Model
+  - 📟📝Box Shadow
+  - 📟📝Color in css
+  - 📟📝Flex Box
+  - 📟📝 Grid
+  - 📟📝 Selector
+  - 📟📝 Visibility
+
+
+
+
 
 - ## 📚 [_Chapter 02 - JAVA SCRIPT TUTORIALS_](./JAVASCRIPT/)
 - 📖 It will cover each concept of javascript in dept , just have a look  
