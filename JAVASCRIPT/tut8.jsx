@@ -1,5 +1,9 @@
 // promise in js 
 
+
+
+
+// produce 
 let p = new Promise( (resolve,reject)=>{
     console.log("promise p  is started ");
     setTimeout(()=>{
@@ -23,7 +27,7 @@ console.log(q);
 
 
 
-
+// consume 
 p.then(
     (value)=>{
         console.log(value);
