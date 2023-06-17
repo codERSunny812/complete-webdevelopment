@@ -1,5 +1,5 @@
 <h1 align="center"> The Complete web development course  </h1>
-<p> This repo has all the concept which i have learned during my  front end part, it basically cover all the important concept of html , css , javascript.You can learn from sratch to master ftom this repo and i really hope this will help you.  </p>
+<p> This repo has all the concept which i have learned during my  front end part, it basically cover all the important concept of html , css , javascript.You can learn from sratch to master ftom this repo and i really hope this will help you. </p>
 
 <details>
 
