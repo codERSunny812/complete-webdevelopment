@@ -1,0 +1,23 @@
+ /* here the property which is used below is universal selector , which which we can set teh property for all the heading and paragraph unitil is set in that selecter*/
+ *{
+    padding: 0;
+            }
+            .container{
+                background-color: gray;
+                border: 12px solid rgb(152, 159, 251);
+            /*we can set padding for top , bottoom , left and  right 
+                padding-top: 23px;
+                padding-bottom: 23px;
+                padding-left: 23px;
+                padding-right: 23px; */
+                /* we can use all the side padding at once , here padding =top , right , bottom , left   , similarly we can use for margain tooo*/
+            padding: 23px 34px 58px 21px;
+            border-radius: 23px;
+            width: 233px;
+            box-sizing: border-box; /* adjust border according to the width */
+                
+                margin: 12px;
+            }
+            body{
+                background-color: lavender;
+            }
